@@ -12,12 +12,9 @@
         <h4>Aluguel de Carros</h4>
     </header>
     <br>
-
         <section>
             <h1>Aluguel de Carros - Curso de PHP</h1><br>
-
-            <?php
-              
+            <?php           
                 $pesquisa = $_GET["pesquisa"];
                 
                 switch($pesquisa) {
@@ -44,15 +41,9 @@
                 }
 
             ?>
-
-
-
             <br>
             <a href="index.php"> VOLTAR A PAGINA ANTERIOR  </a>
         </section>
-
-        <br>
-        
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
             <h4>FAÇA SEU ORÇAMENTO JÁ</h4>
