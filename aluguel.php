@@ -117,29 +117,28 @@
                 </div>
            </div> 
         </section>
-            <section>
+                <section>
+                    <?php
+                        $nome = isset($_GET["nome"]) ? $_GET["nome"] : '';
+                        $data = isset($_GET["data"]) ? $_GET["data"] : '';
+                        $email = isset($_GET["email"]) ? $_GET["email"] : '';
+                        $telefone = isset($_GET["telefone"]) ? $_GET["telefone"] : '';
+                        $carro = isset($_GET["carro"]) ? $_GET["carro"] : '';
+                        $tempo = isset($_GET["tempo"]) ? $_GET["tempo"] : '';
 
-                <?php
-                    $nome = $_GET["nome"];
-                    $data = $_GET["data"];
-                    $email = $_GET["email"];
-                    $telefone = $_GET["telefone"];
-                    $carro = $_GET["carro"];
-                    $tempo = $_GET["tempo"];
-
-                    echo "<fieldset>
-                            <legend>
-                                <h2>Aluguel de Carros</h2>
-                            </legend>
-                            <h2>Dados do Alugamento:</h2>
-                            <p>Nome: $nome</p>
-                            <p>Data: $data</p>
-                            <p>E-mail: $email</p>
-                            <p>Telefone: $telefone</p>
-                            <p>Carro: $carro</p>
-                        </fieldset>";
-
-                ?>
+                        echo "<fieldset>
+                                <legend>
+                                    <h2>Aluguel de Carros</h2>
+                                </legend>
+                                <h2>Dados do Alugamento:</h2>
+                                <p>Nome: $nome</p>
+                                <p>Data: $data</p>
+                                <p>E-mail: $email</p>
+                                <p>Telefone: $telefone</p>
+                                <p>Carro: $carro</p>
+                                <p>Tempo: $tempo</p>
+                            </fieldset>";
+                    ?>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
