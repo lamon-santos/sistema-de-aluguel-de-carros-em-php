@@ -125,6 +125,29 @@
                         $telefone = isset($_GET["telefone"]) ? $_GET["telefone"] : '';
                         $carro = isset($_GET["carro"]) ? $_GET["carro"] : '';
                         $tempo = isset($_GET["tempo"]) ? $_GET["tempo"] : '';
+                        $modelocarro;
+                        $valordoaluguel;
+
+                        switch($carro) {
+                            case "hatch":
+                                $modelocarro = "Hatch";
+                                    $valordoaluguel = $tempo * 100;
+                                break;
+                            case "sedan":
+                                $modelocarro = "Sedan";
+                                    $tempo * 150;
+                                        $valordoaluguel = $tempo * 150;
+                                break;
+                            case "suv":
+                                $modelocarro = "SUV";
+                                    $tempo * 200;
+                                        $valordoaluguel = $tempo * 200;
+                                break;
+                            default:
+                                $modelocarro = "Não encontrado";
+                                    $valordoaluguel = 0;
+                                break;
+                        }
 
                         echo "<fieldset>
                                 <legend>
@@ -137,6 +160,7 @@
                                 <p>Telefone: $telefone</p>
                                 <p>Carro: $carro</p>
                                 <p>Tempo: $tempo</p>
+                                <p>Valor do Aluguel: R$ $valordoaluguel</p>
                             </fieldset>";
                     ?>
                 <br>
