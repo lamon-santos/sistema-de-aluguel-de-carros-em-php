@@ -9,12 +9,12 @@
 <body>
     <header>
         <h3>Programação em PHP</h3>
-        <h4>@lamoncomputingg</h4>
+        <h4>Aluguel de Carros</h4>
     </header>
     <br>
 
         <section>
-            <h1>Buscas com Switch Case</h1><br>
+            <h1>Aluguel de Carros - Curso de PHP</h1><br>
 
             <?php
               
@@ -54,8 +54,8 @@
         <br>
         
         <footer> <!-- serve para colocar o rodapé do site-->
-            <h3>ESPECIALIZADO EM TREINAMENTOS WEB</h3>
-            <h4>DESENVOLVIMENTO WEB</h4>
+            <h3>ALUGUEL DE CARROS</h3>
+            <h4>FAÇA SEU ORÇAMENTO JÁ</h4>
             <br>
             <p class="texto-rodape">Contatos</p>
             <p class="texto-rodape">E-mail: contato@exemplo.com</p>
