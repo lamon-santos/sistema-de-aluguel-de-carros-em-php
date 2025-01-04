@@ -88,10 +88,57 @@
             <h2>Formulário Para Aluguel</h2>
         </section>
         <br>
-            <section>
-                    <?php
-              
-                    ?>
+        <section>
+        <section>
+            <fieldset>
+                <br>
+                    <legend>
+                        <h2>Faça Seu Aluguel de Carros Agora!</h2>
+                    </legend>
+                    <h2>
+                        Tabela com os valores de alugamento:
+                    </h2>
+                    <h4>
+                        (ESSES VALORES SÃO PARA CADA HORA DE USO)
+                    </h4>
+                    <table>
+                        <tr>
+                            <td>Hatch</td>
+                            <td>R$ 100,00</td>
+                        </tr>
+                        <tr>
+                            <td>Sedan</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td>SUV</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                    </table>
+                <br>
+                    <p>Alugue um carro agora mesmo! Preencha o formulário abaixo:</p>
+                <br>
+                <form action="aluguel.php" method="get" target="">
+                    <label for="nome">Nome:</label>&nbsp;
+                    <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome"><br><br>
+                    <label for="data">Data:</label>&nbsp;
+                    <input type="date" name="data" id="data"><br><br>
+                    <label for="email">E-mail:</label>&nbsp;
+                    <input type="email" name="email" id="email" placeholder="Digite Seu E-mail"><br><br>
+                    <label for="telefone">Telefone:</label>&nbsp;
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite Seu Telefone"><br><br>
+                    <label for="tempo">Tempo de Aluguel:</label>&nbsp;
+                    <input type="text" name="tempo" id="tempo" placeholder="Digite o tempo de aluguel"><br><br>
+                    <label for="carro">Carro:</label>&nbsp;
+                    <select name="carro" id="carro">
+                        <option value="hatch">Hatch</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                    </select><br><br>
+                    <input type="submit" name="enviar" value="Alugar">
+                </form>
+            </fieldset>
+        </section>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
