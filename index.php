@@ -111,7 +111,16 @@
                 </div>
            </div> 
         </section>
-        
+        <section>
+            <fieldset>
+                <legend>
+                    <h2>Faça Seu Aluguel de Carros Agora!</h2>
+                </legend>
+                <form action="aluguel.php" method="get" target="">
+
+                </form>
+            </fieldset>
+        </section>
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
             <h4>FAÇA SEU ORÇAMENTO JÁ</h4>
