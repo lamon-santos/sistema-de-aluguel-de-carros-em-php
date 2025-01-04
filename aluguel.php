@@ -118,7 +118,7 @@
            </div> 
         </section>
             <section>
-                
+                <a href="index.php">VOLTAR A PÁGINA ANTERIOR</a>
             </section>
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
