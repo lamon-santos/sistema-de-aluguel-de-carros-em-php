@@ -69,6 +69,11 @@
             font: bold;
         }
 
+        fieldset{
+           border: solid;
+           padding: 5%;
+        }
+
     </style>
 </head>
 <body>
