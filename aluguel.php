@@ -117,6 +117,9 @@
                 </div>
            </div> 
         </section>
+            <?php
+                
+            ?>
             <section>
                 <a href="index.php">VOLTAR A PÁGINA ANTERIOR</a>
             </section>
