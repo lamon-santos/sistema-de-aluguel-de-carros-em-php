@@ -125,6 +125,7 @@
                     $email = $_GET["email"];
                     $telefone = $_GET["telefone"];
                     $carro = $_GET["carro"];
+                    $tempo = $_GET["tempo"];
 
                     echo "<fieldset>
                             <legend>
