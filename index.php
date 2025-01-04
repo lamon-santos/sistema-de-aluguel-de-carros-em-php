@@ -75,6 +75,32 @@
            border-radius: 15px;
         }
 
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+            font-size: 1.7rem;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
     </style>
 </head>
 <body>
@@ -119,9 +145,28 @@
         </section>
         <section>
             <fieldset>
-                <legend>
-                    <h2>Faça Seu Aluguel de Carros Agora!</h2>
-                </legend>
+                <br>
+                    <legend>
+                        <h2>Faça Seu Aluguel de Carros Agora!</h2>
+                    </legend>
+                    <h2>Tabela com os valores de alugamento:</h2>
+                    <table>
+                        <tr>
+                            <td>Hatch</td>
+                            <td>R$ 100,00</td>
+                        </tr>
+                        <tr>
+                            <td>Sedan</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td>SUV</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                    </table>
+                <br>
+                    <p>Alugue um carro agora mesmo! Preencha o formulário abaixo:</p>
+                <br>
                 <form action="aluguel.php" method="get" target="">
                     <label for="nome">Nome:</label>&nbsp;
                     <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome"><br><br>
