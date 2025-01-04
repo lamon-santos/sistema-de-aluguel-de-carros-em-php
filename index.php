@@ -113,8 +113,8 @@
         </section>
         
         <footer> <!-- serve para colocar o rodapé do site-->
-            <h3>ESPECIALIZADO EM TREINAMENTOS WEB</h3>
-            <h4>DESENVOLVIMENTO WEB</h4>
+            <h3>ALUGUEL DE CARROS</h3>
+            <h4>FAÇA SEU ORÇAMENTO JÁ</h4>
             <br>
             <p class="texto-rodape">Contatos</p>
             <p class="texto-rodape">E-mail: contato@exemplo.com</p>
