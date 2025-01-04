@@ -129,17 +129,17 @@
                 <div>
                     <h2>Hatch</h2>
                     <img src="img/hatch.png" alt="Foto de um carro Hatch">
-                    <a href="hatch.html">CLIQUE AQUI PARA ALUGAR</a>
+                    <a href="hatch.php">CLIQUE AQUI PARA ALUGAR</a>
                 </div>
                 <div>
                     <h2>Sedan</h2>
                     <img src="img/sedan.png" alt="Foto de um carro Sedan">
-                    <a href="sedan.html">CLIQUE AQUI PARA ALUGAR</a>
+                    <a href="sedan.php">CLIQUE AQUI PARA ALUGAR</a>
                 </div>
                 <div>
                     <h2>SUV</h2>
                     <img src="img/suv.png" alt="Foto de um carro SUV">
-                    <a href="suv.html">CLIQUE AQUI PARA ALUGAR</a>
+                    <a href="suv.php">CLIQUE AQUI PARA ALUGAR</a>
                 </div>
            </div> 
         </section>
