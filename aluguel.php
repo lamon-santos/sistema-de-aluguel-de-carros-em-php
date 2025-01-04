@@ -122,7 +122,20 @@
                 $data = $_GET["data"];
                 $email = $_GET["email"];
                 $telefone = $_GET["telefone"];
-                $carro = $_GET["carro"]
+                $carro = $_GET["carro"];
+
+                echo "<fieldset>
+                        <legend>
+                            <h2>Aluguel de Carros</h2>
+                        </legend>
+                        <h2>Dados do Alugamento:</h2>
+                        <p>Nome: $nome</p>
+                        <p>Data: $data</p>
+                        <p>E-mail: $email</p>
+                        <p>Telefone: $telefone</p>
+                        <p>Carro: $carro</p>
+                    </fieldset>";
+
             ?>
             <section>
                 <a href="index.php">VOLTAR A PÁGINA ANTERIOR</a>
