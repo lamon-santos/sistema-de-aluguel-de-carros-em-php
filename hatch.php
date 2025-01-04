@@ -99,7 +99,7 @@
                     ?>
                 <br>
                 <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
-                <a href="#"> <<< VOLTAR A PÁGINA ANTERIOR</a><br>
+                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a><br>
             </section>
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
