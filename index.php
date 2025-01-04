@@ -131,6 +131,8 @@
                     <input type="email" name="email" id="email" placeholder="Digite Seu E-mail"><br><br>
                     <label for="telefone">Telefone:</label>&nbsp;
                     <input type="tel" name="telefone" id="telefone" placeholder="Digite Seu Telefone"><br><br>
+                    <label for="tempo">Tempo de Aluguel:</label>&nbsp;
+                    <input type="text" name="tempo" id="tempo" placeholder="Digite o tempo de aluguel"><br><br>
                     <label for="carro">Carro:</label>&nbsp;
                     <select name="carro" id="carro">
                         <option value="hatch">Hatch</option>
