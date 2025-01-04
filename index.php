@@ -72,6 +72,7 @@
         fieldset{
            border: solid;
            padding: 5%;
+           border-radius: 15px;
         }
 
     </style>
