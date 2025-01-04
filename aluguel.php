@@ -159,7 +159,7 @@
                                 <p><strong>E-mail:</strong> $email</p>
                                 <p><strong>Telefone:</strong> $telefone</p>
                                 <p style='color: green';><strong>Carro:</strong><p><img src='img/$carro.png' alt='Foto de um carro $modelocarro' style='width: 90px; border: solid 2px green; border-radius: 3px; height: 60px;'></p>
-                                <p><strong>Tempo:</strong> $tempo dias</p>
+                                <p><strong>Tempo:</strong> $tempo horas</p>
                                 <p><strong>Valor do Aluguel:</strong> R$ $valordoaluguel</p>
                             </fieldset>";
                     ?>
