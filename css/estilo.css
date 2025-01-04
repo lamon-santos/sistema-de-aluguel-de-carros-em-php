@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 2% 2% 1%;
+    font-size: 1.6rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+footer {
+    background-color: #1E90FF;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.6rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3, h4 {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.texto-rodape {
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+}
+
+.formulario {
+    background-color: #80b7ed;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 1.9rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    font-size: 1.7rem;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #1E90FF;
+    outline: none;
+}
