@@ -149,7 +149,12 @@
                     <legend>
                         <h2>Faça Seu Aluguel de Carros Agora!</h2>
                     </legend>
-                    <h2>Tabela com os valores de alugamento:</h2>
+                    <h2>
+                        Tabela com os valores de alugamento:
+                    </h2>
+                    <h4>
+                        (ESSES VALORES SÃO PARA CADA HORA DE USO)
+                    </h4>
                     <table>
                         <tr>
                             <td>Hatch</td>
