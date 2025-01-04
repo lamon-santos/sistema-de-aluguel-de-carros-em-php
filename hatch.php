@@ -89,10 +89,17 @@
         <br>
             <section>
                     <?php
-              
+                    echo "<img src='img\hatch.png' style='width: 300px; height: 180px;'>";
+                        echo "<h1>Aluguel de Carros - Hatch</h1>";  
+                        echo "<h2>O que é tipo de veículo hatch?</h2>
+                                <p>Carros do tipo hatch​ são divididos em dois volumes principais: a caixa do motor e o bloco dos passageiros, que fica junto com o porta-malas.</p>
+                                <p>Na prática, isso significa apenas que o automóvel é mais compacto.</p>
+
+                                <p>Uma das primeiras vantagens do hatch é o seu tamanho compacto, que pode facilitar muito na hora de conseguir uma vaga. Além disso, o carro hatch oferece melhor percepção das dimensões do próprio veículo.</p>";
                     ?>
                 <br>
-                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
+                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
+                <a href="#"> <<< VOLTAR A PÁGINA ANTERIOR</a><br>
             </section>
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
