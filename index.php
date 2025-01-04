@@ -99,9 +99,6 @@
                     <img src="img/suv.png" alt="Foto de um carro SUV">
                     <a href="suv.html">Saiba Mais</a>
                 </div>
-                <div>Conteúdo 4</div>
-                <div>Conteúdo 5</div>
-                <div>Conteúdo 6</div>
            </div> 
         </section>
         
