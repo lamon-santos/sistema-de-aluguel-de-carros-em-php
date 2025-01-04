@@ -118,7 +118,11 @@
            </div> 
         </section>
             <?php
-                
+                $nome = $_GET["nome"];
+                $data = $_GET["data"];
+                $email = $_GET["email"];
+                $telefone = $_GET["telefone"];
+                $carro = $_GET["carro"]
             ?>
             <section>
                 <a href="index.php">VOLTAR A PÁGINA ANTERIOR</a>
