@@ -117,7 +117,21 @@
                     <h2>Faça Seu Aluguel de Carros Agora!</h2>
                 </legend>
                 <form action="aluguel.php" method="get" target="">
-
+                    <label for="nome">Nome:</label>&nbsp;
+                    <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome"><br><br>
+                    <label for="data">Data:</label>&nbsp;
+                    <input type="date" name="data" id="data"><br><br>
+                    <label for="email">E-mail:</label>&nbsp;
+                    <input type="email" name="email" id="email" placeholder="Digite Seu E-mail"><br><br>
+                    <label for="telefone">Telefone:</label>&nbsp;
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite Seu Telefone"><br><br>
+                    <label for="carro">Carro:</label>&nbsp;
+                    <select name="carro" id="carro">
+                        <option value="hatch">Hatch</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                    </select><br><br>
+                    <input type="submit" name="enviar" value="Alugar">
                 </form>
             </fieldset>
         </section>
