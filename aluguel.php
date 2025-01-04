@@ -117,28 +117,30 @@
                 </div>
            </div> 
         </section>
-            <?php
-                $nome = $_GET["nome"];
-                $data = $_GET["data"];
-                $email = $_GET["email"];
-                $telefone = $_GET["telefone"];
-                $carro = $_GET["carro"];
-
-                echo "<fieldset>
-                        <legend>
-                            <h2>Aluguel de Carros</h2>
-                        </legend>
-                        <h2>Dados do Alugamento:</h2>
-                        <p>Nome: $nome</p>
-                        <p>Data: $data</p>
-                        <p>E-mail: $email</p>
-                        <p>Telefone: $telefone</p>
-                        <p>Carro: $carro</p>
-                    </fieldset>";
-
-            ?>
             <section>
-                <a href="index.php">VOLTAR A PÁGINA ANTERIOR</a>
+
+                <?php
+                    $nome = $_GET["nome"];
+                    $data = $_GET["data"];
+                    $email = $_GET["email"];
+                    $telefone = $_GET["telefone"];
+                    $carro = $_GET["carro"];
+
+                    echo "<fieldset>
+                            <legend>
+                                <h2>Aluguel de Carros</h2>
+                            </legend>
+                            <h2>Dados do Alugamento:</h2>
+                            <p>Nome: $nome</p>
+                            <p>Data: $data</p>
+                            <p>E-mail: $email</p>
+                            <p>Telefone: $telefone</p>
+                            <p>Carro: $carro</p>
+                        </fieldset>";
+
+                ?>
+                <br>
+                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
