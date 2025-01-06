@@ -138,8 +138,7 @@
                 </div>
                 <div>
                     <h2>SUV</h2>
-                    <img src="img/suv.png" alt="Foto de um carro SUV">
-                    <a href="suv.php">CLIQUE AQUI PARA ALUGAR</a>
+                    <a href="suv.php"> <img src="img/suv.png" alt="Foto de um carro SUV"> CLIQUE AQUI PARA ALUGAR</a>
                 </div>
            </div> 
         </section>
