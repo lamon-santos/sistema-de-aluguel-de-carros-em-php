@@ -88,9 +88,16 @@
         </section>
         <br>
             <section>
-                    <?php
-              
-                    ?>
+                <?php
+                    echo "<img src='img\sedan.png' style='width: 300px; height: 180px;'>";
+                    echo "<h1>Aluguel de Carros - sedan</h1>";  
+                    echo "<h2>O que é tipo de veículo hatch?</h2>
+                                 <p>Com seu espaço interno e um generoso porta-malas, sedans são a opção ideal para famílias que usam o carro para suas tarefas diárias ou para viagens de longa duração. Um sedan comporta confortavelmente as crianças e até mesmo animais de estimação, se necessário.</p>
+                                <p>As principal vantagem em adquirir um carro sedan é o conforto, oferecido por um espaço interno maior, e a capacidade do porta-malas — ideal para quem possui filhos e precisa de mais espaço para as bagagens.</p>";
+                ?>
+                <br>
+                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
+                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a><br>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
