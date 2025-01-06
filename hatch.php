@@ -98,8 +98,9 @@
                                 <p>Uma das primeiras vantagens do hatch é o seu tamanho compacto, que pode facilitar muito na hora de conseguir uma vaga. Além disso, o carro hatch oferece melhor percepção das dimensões do próprio veículo.</p>";
                     ?>
                 <br>
-                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
-                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a><br>
+                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a>
+                <br>
+                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
         <footer> <!-- serve para colocar o rodapé do site-->
             <h3>ALUGUEL DE CARROS</h3>
