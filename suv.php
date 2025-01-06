@@ -88,9 +88,13 @@
         </section>
         <br>
             <section>
-                    <?php
-              
-                    ?>
+                <?php
+                    echo "<img src='img\suv.png' style='width: 300px; height: 180px;'>";
+                    echo "<h1>Aluguel de Carros - Sun</h1>";  
+                    echo "<p>Em sua definição básica, SUV é a sigla para 'Sport Utility Vehicle', ou 'Veículo Utilitário Esportivo', ou seja, um carro destinado a carga/trabalho, como as picapes, mas com uma tocada mais esportiva. Normalmente é equipado com tração nas quatro rodas e caracteristicamente de porte avantajado.</p>
+                                <p>Qual a diferença de um carro SUV?</p>
+                                <p>Os SUVs são veículos que têm mais adaptabilidade a diferentes terrenos, são mais altos e robustos e, também, confortáveis e arrojados. <p>O motor, no geral, é mais potente e alguns modelos têm, ainda, a opção de tração 4×4.</p>";
+                ?>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
