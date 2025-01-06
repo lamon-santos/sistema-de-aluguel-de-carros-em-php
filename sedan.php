@@ -96,7 +96,7 @@
                                 <p>As principal vantagem em adquirir um carro sedan é o conforto, oferecido por um espaço interno maior, e a capacidade do porta-malas — ideal para quem possui filhos e precisa de mais espaço para as bagagens.</p>";
                 ?>
                 <br>
-                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
+                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
