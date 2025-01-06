@@ -97,7 +97,6 @@
                 ?>
                 <br>
                 <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
-                <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a><br>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
