@@ -96,8 +96,7 @@
                                 <p>Os SUVs são veículos que têm mais adaptabilidade a diferentes terrenos, são mais altos e robustos e, também, confortáveis e arrojados. <p>O motor, no geral, é mais potente e alguns modelos têm, ainda, a opção de tração 4×4.</p>";
                 ?>
                 <br>
-                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a><br>
-                <br>
+                <a href="formularioaluguel.php">CLIQUE AQUI PARA ALUGAR >>></a>
                 <br>
                 <a href="index.php"> <<< VOLTAR A PÁGINA ANTERIOR</a>
             </section>
