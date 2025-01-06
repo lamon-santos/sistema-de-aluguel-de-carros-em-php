@@ -132,8 +132,7 @@
                 </div>
                 <div>
                     <h2>Sedan</h2>
-                    <img src="img/sedan.png" alt="Foto de um carro Sedan">
-                    <a href="sedan.php">CLIQUE AQUI PARA ALUGAR</a>
+                    <a href="sedan.php"> <img src="img/sedan.png" alt="Foto de um carro Sedan"> CLIQUE AQUI PARA ALUGAR</a>
                 </div>
                 <div>
                     <h2>SUV</h2>
